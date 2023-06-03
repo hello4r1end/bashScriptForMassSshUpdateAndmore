@@ -36,10 +36,7 @@ SUBNET="192.168.10"
 NETMASK="192.168.1.0/24"
 USERNAME="Put username"
 read -s -p "Enter the SSH password: " PASSWORD
-Ensure that you have a hosts.txt file that contains the list of hosts you want to perform the update, upgrade, and inventory actions on.
-
 Update the name of the Excel file in the script:
-
 shell
 Copy code
 # The name of the Excel file to save the data
@@ -64,11 +61,3 @@ This project is licensed under the MIT License.
 
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
-
-Acknowledgements
-This script was developed by P.Mavrogiannis as a tool for automating system updates and inventory management.
-
-css
-Copy code
-
-Feel free to further customize the README.md file to include any other details or 
